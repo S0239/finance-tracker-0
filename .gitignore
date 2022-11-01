@@ -5,9 +5,6 @@
 /.pnp
 .pnp.js
 
-#dev dependencies
-.husky
-
 # testing
 /coverage
 
