@@ -1,7 +1,3 @@
-import React from "react";
-
-const a = "";
-
 function App() {
   return <div className="App">Hello!</div>;
 }
