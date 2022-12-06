@@ -1,18 +1,18 @@
 import React from "react";
 
-import { Header } from "./Header";
-import "./page.css";
+import { TestHeader } from "./TestHeader";
+import "./testPage.css";
 
 type User = {
   name: string;
 };
 
-export const Page: React.VFC = () => {
+export const TestPage: React.VFC = () => {
   const [user, setUser] = React.useState<User>();
 
   return (
     <article>
-      <Header
+      <TestHeader
         user={user}
         onLogin={() => setUser({ name: "Jane Doe" })}
         onLogout={() => setUser(undefined)}
