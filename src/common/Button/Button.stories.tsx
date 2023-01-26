@@ -1,9 +1,9 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import PrimaryButton from "./Button";
-import Icon from "./Icon";
+import Icon from "../Icon/assets/Icon";
 
-import PenSvg from "./assets/pen.svg";
+import PenSvg from "../Icon/assets/pen.svg";
 
 export default {
   title: "Button",

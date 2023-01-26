@@ -1,6 +1,6 @@
 import React from "react";
 
-import { IconProps } from "./interfaces";
+import { IconProps } from "../../interfaces";
 
 const Icon = (IconProps: IconProps) => {
   const { iconLink } = IconProps;
