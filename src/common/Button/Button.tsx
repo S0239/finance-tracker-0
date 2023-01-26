@@ -3,10 +3,10 @@ import React from "react";
 import { ButtonProps } from "../interfaces";
 
 const Button = (props: ButtonProps) => {
-  const { onClick, classes, children } = props;
+  const { onClick, clsx, children } = props;
 
   return (
-    <button onClick={onClick} className={classes ? classes : ""}>
+    <button onClick={onClick} className={clsx ? clsx : ""}>
       {children}
     </button>
   );
