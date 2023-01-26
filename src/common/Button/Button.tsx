@@ -2,7 +2,7 @@ import React from "react";
 
 import { ButtonProps } from "../interfaces";
 
-const PrimaryButton = (props: ButtonProps) => {
+const Button = (props: ButtonProps) => {
   const { onClick, classes, children } = props;
 
   return (
@@ -12,4 +12,4 @@ const PrimaryButton = (props: ButtonProps) => {
   );
 };
 
-export default PrimaryButton;
+export default Button;

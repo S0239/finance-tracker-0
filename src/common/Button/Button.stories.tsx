@@ -1,23 +1,23 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import PrimaryButton from "./Button";
+import Button from "./Button";
 import Icon from "../Icon/assets/Icon";
 
 import PenSvg from "../Icon/assets/pen.svg";
 
 export default {
   title: "Button",
-  component: PrimaryButton,
-} as ComponentMeta<typeof PrimaryButton>;
+  component: Button,
+} as ComponentMeta<typeof Button>;
 
-export const Default: ComponentStory<typeof PrimaryButton> = () => {
-  return <PrimaryButton onClick={() => null}>Button</PrimaryButton>;
+export const Default: ComponentStory<typeof Button> = () => {
+  return <Button onClick={() => null}>Button</Button>;
 };
 
-export const IconBtn: ComponentStory<typeof PrimaryButton> = () => {
+export const IconBtn: ComponentStory<typeof Button> = () => {
   return (
-    <PrimaryButton onClick={() => null}>
+    <Button onClick={() => null}>
       Button with icon <Icon iconLink={PenSvg} />
-    </PrimaryButton>
+    </Button>
   );
 };
