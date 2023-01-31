@@ -6,7 +6,3 @@ export interface ButtonProps {
   clsx?: string;
   icon?: JSX.Element;
 }
-
-export interface IconProps {
-  iconLink: string;
-}

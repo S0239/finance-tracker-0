@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ButtonProps } from "../interfaces";
+import { ButtonProps } from "../../Button/types";
 
 const Button = (props: ButtonProps) => {
   const { onClick, clsx, children } = props;
