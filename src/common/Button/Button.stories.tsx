@@ -1,9 +1,8 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import Button from "./Button";
-import Icon from "../Icon/assets/Icon";
-
-import PenSvg from "../Icon/assets/pen.svg";
+import Icon from "../Icon/Icon";
+import { Pen } from "../Icon/assets";
 
 export default {
   title: "Button",
@@ -17,7 +16,7 @@ export const Default: ComponentStory<typeof Button> = () => {
 export const IconBtn: ComponentStory<typeof Button> = () => {
   return (
     <Button onClick={() => null}>
-      Button with icon <Icon iconLink={PenSvg} />
+      Button with icon <Icon component={Pen} />
     </Button>
   );
 };
